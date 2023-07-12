@@ -10,7 +10,7 @@ def sort012(array):
             lowIndex += 1
             midIndex += 1
         elif array[midIndex] == 1:
-            # simply move to nexßt position in sorted part of list (i.e., right side).
+            # simply move to next position in sorted part of list (i.e., right side).
             midIndex += 1
         else:
             # swap with element at index 'high' and decrease highIndex.
