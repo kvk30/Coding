@@ -22,8 +22,8 @@ for i in Array1:
     print(i)
 for i in Array2:
     print(i)
-        #if(Array1[])
 
+#if(Array1[])
 #range has arguments -> start, stop, step.
 #for i in range(4,-1):
 #    print(i)
