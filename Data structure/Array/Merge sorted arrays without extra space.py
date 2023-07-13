@@ -4,6 +4,8 @@ def mergeSortedArrays(Array1, Array2):
         lastElemeneArray1 = Array1[len(Array1)-1]
         iteratorArray1 = len(Array1)-2
         
+        #Finding least element in first array and using insert sorting
+
         while(iteratorArray1 >= 0 and Array1[iteratorArray1] > Array1[indexArray2]):
             Array1[iteratorArray1+1] = Array1[iteratorArray1]
             iteratorArray1 -= 1
